@@ -11,7 +11,7 @@ header {
     display: flex; /* Layout flexível */
     justify-content: space-between; /* Espaça itens igualmente */
     align-items: center; /* Alinha itens ao centro verticalmente */
-    padding: 10px; /* Espaçamento interno */
+    padding: 25px 15px; /* Espaçamento interno */
     position: fixed; /* Fixa no topo da página */
     top: 0; /* Alinha ao topo */
     width: 100%; /* Largura total */
