@@ -1,85 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfólio da Jannyfer</title>
-        <style>
-            body{
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-            }
-            .header {
-            background-color: #ffffff;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            }
-            .logo {
-            width: 50px;
-            height: 50px;
-            background-color: #000000;
-            color: #ffffff;
-            text-align: center;
-            line-height: 50px;
-            font-weight: bold;
-            }
-            .menu-icon {
-            display: block;
-            text-align: right;
-            padding: 50px;
-            font-size: 30px;
-            }
-            .portfolio {
-            display: flex;
-            justify-content: space-around;
-            padding: 20px;
-            }
-            .portfolio-item {
-            width: 30%;
-            padding: 10px;
-            border: 1px solid #cccccc;
-            }
-            .portfolio-item img {
-            width: 100%;
-            height: auto;
-            }
-            .apresentacao{
-                text-align: center;
-                padding: 20px;
-            }
-        </style>
-    </head>
-    <body>
-        <header class="header">
-            <div class="logo">F</div>
-            <div class="menu-icon">&#9776;</div>
-        </header>
+<html lang="pt-BR">
 
-        <section class="apresentacao">
-            <h1>Eu sou a <u>Jannyfer Tamagno</u>
+<head>
+    <!-- Define a codificação de caracteres para UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Define a viewport para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página -->
+    <title>Portfólio - Jannyfer Tamagno</title>
+    <!-- Inclui o arquivo de estilo externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Logo -->
+        <div class="logo">JT</div>
+        <!-- Navegação -->
+        <nav>
+            <ul>
+                <!-- Links de navegação -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Portfolio">Portfólio</a></li>
+                <!-- Link de contato via Whatsapp -->
+                <li><a href="https://wa.me/5554984451333?text=Ol%C3%A1%2C+estou+entrando+em+contato+atrav%C3%A9s+do+seu+site."
+                        class="btn">Contato
+                        Whatsapp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de destaque (Hero) -->
+    <section class="hero" id="Sobre">
+        <!-- Conteúdo do destaque -->
+        <div class="hero-content">
+            <!-- Título -->
+            <h1>Olá, eu sou a Jannyfer Tamagno</h1>
             <br>
-            uma desenvolvedora<u>Fullstack</u>
-            <br>
-            que mora em <u>Caxias do Sul</u>,RS.</h1>
-            <div>
-                <p> Home / Portfólio / Contato </p>
-            </div>
-        </section>
+            <!-- Parágrafo de apresentação -->
+            <p>
+                Desenvolvedora fullstack apaixonada por tecnologia e soluções criativas. Com mais de 5 anos de
+                experiência em desenvolvimento web, tenho trabalhado com diversas tecnologias e plataformas para criar
+                soluções robustas e escaláveis que atendam às necessidades dos clientes. Amo o desafio de encontrar
+                soluções inovadoras e criativas para problemas complexos e estou sempre buscando aprender e crescer como
+                profissional.
+            </p>
+        </div>
+    </section>
 
-        <section class="portfolio">
+    <!-- Seção do portfólio -->
+    <section class="portfolio" id="Portfolio">
+        <!-- Título do portfólio -->
+        <h2>Portfólio</h2>
+        <!-- Lista de itens do portfólio -->
+        <div class="portfolio-items">
+            <!-- Item do portfólio -->
             <div class="portfolio-item">
-                <a href="projeto1.html"><img src="imagem1.png" alt="Imagem do projeto 1"></a>
+                <!-- Imagem do projeto 1 -->
+                <img src="assets/imagem1.png" alt="Imagem do projeto 1">
+                <!-- Título do projeto 1 -->
+                <h3>Cards expandidos</h3>
+                <!-- Descrição do projeto 1 -->
+                <p>Projeto de cards expandidos.</p>
             </div>
+            <!-- Item do portfólio -->
             <div class="portfolio-item">
-                <img src="imagem2.jpeg" alt="Imagem do projeto 2">
+                <!-- Imagem do projeto 2 -->
+                <img src="assets/imagem2.jpeg" alt="Imagem do projeto 2">
+                <!-- Título do projeto 2 -->
+                <h3>Project title</h3>
+                <!-- Descrição do projeto 2 -->
+                <p>Description of your second work</p>
             </div>
+            <!-- Item do portfólio -->
             <div class="portfolio-item">
-                <img src="imagem3.jpeg" alt="Imagem do projeto 3">
+                <!-- Imagem do projeto 3 -->
+                <img src="assets/imagem3.jpeg" alt="Imagem do projeto 3">
+                <!-- Título do projeto 3 -->
+                <h3>Project title</h3>
+                <!-- Descrição do projeto 3 -->
+                <p>Description of your third creation</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-    </body>
+    <!-- Rodapé da página -->
+    <footer>
+        <!-- Links para redes sociais -->
+        <div class="social">
+            <a href="#"><img src="assets/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
+            <a href="#"><img src="assets/instagram.svg" alt="Instagram"></a>
+        </div>
+        <!-- Direitos autorais -->
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+
 </html>
