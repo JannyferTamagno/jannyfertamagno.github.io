@@ -56,18 +56,18 @@ nav ul li a.btn {
 }
 
 /* Estilos para a seção hero */
-.hero {
+.apresentacao {
     text-align: center; /* Centraliza o texto */
     padding: 100px; /* Espaçamento interno */
     background-color: #f0f0f0; /* Fundo cinza claro */
 }
 
-.hero h1 {
+.apresentacao h1 {
     margin: 0; /* Remove margem */
     font-size: 2.5em; /* Tamanho da fonte */
 }
 
-.hero p {
+.apresentacao p {
     margin: 10px 0; /* Espaçamento vertical */
     font-size: 1.4em; /* Tamanho da fonte */
     max-width: 1200px; /* Largura máxima */
