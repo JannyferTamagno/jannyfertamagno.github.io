@@ -46,7 +46,7 @@ Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir uma issue
 
 ## Contato
 
-Você pode entrar em contato comigo através do [WhatsApp](https://wa.me/5554984451333?text=Ol%C3%A1%2C+estou+entrando+em+contato+atrav%C3%A9s+do+seu+site).
+Você pode entrar em contato comigo através do [WhatsApp](LinkAqui).
 
 ---
 
