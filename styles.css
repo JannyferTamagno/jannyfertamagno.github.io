@@ -6,7 +6,7 @@ body {
     padding-top: 60px; /* Espaçamento para o header fixo */
 }
 
-/* Estilos para o cabeçalho fixo */
+/* Estilos para o cabeçalho fixo. */
 header {
     display: flex; /* Layout flexível */
     justify-content: space-between; /* Espaça itens igualmente */
