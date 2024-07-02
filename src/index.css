@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column; /* Ajuste para exibir os elementos em coluna por padrão */
+}
+
+.night {
+  background-color: black;
+  color: white;
+}
+
+.day {
+  background-color: white;
+  color: black;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Elementos em coluna */
+  align-items: center;
+  width: 100%;
+}
+
+.players {
+  display: flex;
+  flex-direction: column; /* Elementos em coluna */
+  width: 100%;
+}
+
+.player {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  width: 90%; /* Ajuste para largura completa com margem */
+}
+
+button, select {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  width: 90%; /* Ajuste para largura completa com margem */
+}
+
+/* Media queries para telas maiores */
+@media (min-width: 768px) {
+  .players {
+    flex-direction: row; /* Elementos em linha para telas maiores */
+    flex-wrap: wrap;
+  }
+
+  .player {
+    width: 45%; /* Ajuste para largura parcial */
+  }
+
+  button, select {
+    width: auto; /* Ajuste para tamanho automático em telas maiores */
+  }
+}
